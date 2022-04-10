@@ -1,0 +1,27 @@
+.search_page form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.search_page select,
+.search_page input,
+.search_page button,
+.search_page .result-input {
+    width: 40%;
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px auto;
+}
+
+.search_page .result-input {
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+}
+
+.search_page button {
+    width: 200px;
+}
